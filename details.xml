@@ -1,0 +1,70 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="#181818"
+>
+	<Button
+
+		android:id="@+id/detailsButton1"
+		android:layout_height="45dp"
+		android:layout_width="match_parent"
+		android:text="Start"
+		android:textColor="#FFFFFF"
+		android:background="#7732EE"
+		android:layout_alignParentBottom="true"
+	/>
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:scrollbars="vertical"
+		android:layout_marginBottom="45dp"
+	>
+
+
+		<LinearLayout
+
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+
+
+
+			<ImageView
+				android:adjustViewBounds="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/detailsImageView1"
+				android:layout_centerHorizontal="true"/>
+
+			<TextView
+				android:id="@+id/detailsTextView1"
+				android:layout_marginTop="25dp"
+				android:layout_below="@+id/detailsImageView1"
+				android:layout_marginLeft="30dp"
+				android:textSize="15sp"
+				android:textColor="#FFFFFF"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+
+			/>
+
+			<ImageView
+				android:adjustViewBounds="true"
+				android:layout_margin="15dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/channelLogo"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+
+</RelativeLayout>
+	
+
+	
